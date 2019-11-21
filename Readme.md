@@ -20,4 +20,12 @@ jshell> C = n;
 |    symbol:   variable C
 |  C = n;
 |  ^
+### after error fixed
+int n = 68;
+byte b = 127;
+char c = 'B';
+b = (byte)n;
+c = (char)n;
+c ==> 'D'
+b ==> 68
 
